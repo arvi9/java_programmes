@@ -29,6 +29,9 @@ public class PreVsPostIncrement {
         System.out.println(x);
         System.out.println(++x);
         System.out.println(x);
+        System.out.println("---------PRE EXAMPLE---------");
+        int a=1,b=2;
+        System.out.println(a=++b);
     
     }
     
@@ -38,7 +41,10 @@ public class PreVsPostIncrement {
         System.out.println(x);
         System.out.println(x++);
         System.out.println(x);
-    
+     System.out.println("---------POST EXAMPLE---------");
+        int a=1,b=2;
+        System.out.println(a=b++);
+        System.out.println(++a*a++);
     }
     
 }

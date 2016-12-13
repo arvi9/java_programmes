@@ -28,7 +28,7 @@ public class Fibonacci {
             for (int i = 3; i <= n; i++) 
             {
                 
-                f= f1+f2;
+                f= f1+f2; //Fn = Fn-1 + Fn-2;
                 System.out.print("\t"+f);
                 f2=f1;
                 f1=f;
